@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="chartItemReuseIdentifier" rowHeight="148" id="Spd-im-EjR" customClass="MTChartCellView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="148"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Spd-im-EjR" id="GEN-SL-qhB">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W3I-7F-Z9b" customClass="CView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="147"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="W3I-7F-Z9b" secondAttribute="trailing" id="Gwj-YY-708"/>
+                    <constraint firstItem="W3I-7F-Z9b" firstAttribute="leading" secondItem="GEN-SL-qhB" secondAttribute="leading" id="KWd-mC-neH"/>
+                    <constraint firstAttribute="bottom" secondItem="W3I-7F-Z9b" secondAttribute="bottom" id="bA4-dq-MvM"/>
+                    <constraint firstItem="W3I-7F-Z9b" firstAttribute="top" secondItem="GEN-SL-qhB" secondAttribute="top" id="bKc-ia-s9c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="drawableView" destination="W3I-7F-Z9b" id="TjE-mQ-Rrv"/>
+            </connections>
+            <point key="canvasLocation" x="280" y="287"/>
+        </tableViewCell>
+    </objects>
+</document>
