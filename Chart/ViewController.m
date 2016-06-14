@@ -39,7 +39,7 @@
 }
 
 - (void)setupTimer {
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:0.8
                                                       target:self
                                                     selector:@selector(addVertex)
                                                     userInfo:nil
